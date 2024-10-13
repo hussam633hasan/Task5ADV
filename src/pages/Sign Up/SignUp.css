@@ -1,0 +1,82 @@
+.signup-page{
+    background: linear-gradient(71.17deg, #FEAF00 19.35%, #F8D442 90.12%);
+    height: 100vh;
+    position: relative;
+}
+.signup-content{
+    position: absolute;
+    top: 42px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: white;
+    box-shadow: 2px 5px 10px 0px #0000001A;
+    border-radius: 20px;
+    width: 476px;
+}
+.signup-head{
+    text-align: center;
+}
+.signup-head h1{
+    font-size: 22px;
+}
+.signup-head img{
+    padding:  42px 0px;
+}
+.name-input , .password-input{
+    display: flex;
+}
+.name-input input , .password-input input{
+    padding: 10px 5px 10px 5px;
+    margin: 5px 25px 20px 25px;
+    width: 200.42px;
+    border: 1px solid #E5E5E5
+}
+form p {
+    padding-left: 25px;
+}
+.email-input input{
+    width: 426px;
+    padding: 10px 5px 10px 5px;
+    margin: 0px 25px 20px 25px;
+    border: 1px solid #E5E5E5
+}
+.drop-zone{
+    background: #F8F8FF;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed #384EB74D;
+    margin: 5px 25px 20px 25px;
+    position: relative;
+
+}
+.drop-zone img{
+    cursor: pointer;
+}
+.drop-zone input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    width: 20px;
+    margin: 0 0 0 -80px;
+}
+.signup-btn input{
+    width: 415.87px;
+    border: none;
+    background: #FEAF00;
+    padding: 10px 5px 10px 5px;
+    margin: 12px 25px 12px 25px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.signup-footer p{
+    text-align: center;
+    padding: 12px 0px !important;
+}
+.signup-footer a{
+    text-decoration-line: none;
+    color: #FEAF00;
+}

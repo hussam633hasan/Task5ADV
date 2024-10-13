@@ -1,0 +1,16 @@
+input {
+    width: 426px;
+    padding: 12px 5px 12px 5px;
+    margin: 0px 45px 20px 25px;
+    border: 1px solid #E5E5E5
+}
+.SignIn-btn input{
+    width: 415.87px;
+    border: none;
+    background: #FEAF00;
+    padding: 12px 5px 12px 5px;
+    margin: 12px 25px 12px 25px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}

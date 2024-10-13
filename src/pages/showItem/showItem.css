@@ -1,0 +1,18 @@
+.d-flex{
+    display: flex;
+}
+.title{
+    margin-top: 150px;
+}
+.content{
+    position: absolute;
+    top: 182px;
+    left: 50%;
+}
+.item-single-photo{
+    width: 241px;
+}
+.price{
+    display: flex;
+    align-items: center;
+}

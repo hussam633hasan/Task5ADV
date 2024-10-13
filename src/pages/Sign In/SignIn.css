@@ -1,0 +1,53 @@
+.SignIn-page{
+    background: linear-gradient(71.17deg, #FEAF00 19.35%, #F8D442 90.12%);
+    height: 100vh;
+    position: relative;
+}
+.SignIn-content{
+    position: absolute;
+    top: 42px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: white;
+    box-shadow: 2px 5px 10px 0px #0000001A;
+    border-radius: 20px;
+    width: 476px;
+    height: 550px;
+}
+.SignIn-head{
+    text-align: center;
+}
+.SignIn-head h1{
+    font-size: 22px;
+}
+.SignIn-head img{
+    padding:  42px 0px;
+}
+
+form p {
+    padding-left: 25px;
+}
+.email-inputt input , .password-inputt  input{
+    width: 426px;
+    padding: 12px 5px 12px 5px;
+    margin: 0px 45px 20px 25px;
+    border: 1px solid #E5E5E5
+}
+.SignIn-btn input{
+    width: 415.87px;
+    border: none;
+    background: #FEAF00;
+    padding: 12px 5px 12px 5px;
+    margin: 12px 25px 12px 25px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.SignIn-footer p{
+    text-align: center;
+    padding: 35px 0px !important;
+}
+.SignIn-footer a{
+    text-decoration-line: none;
+    color: #FEAF00;
+}
